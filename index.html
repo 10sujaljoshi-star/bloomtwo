@@ -53,7 +53,15 @@
 
     /* responsive adjustments */
     @media (max-width:480px){.flower-wrap{width:260px;height:360px} .ground{width:320px;height:160px}}
-    .stem-svg{ position:absolute; left:50%; top:240px; transform:translateX(-50%); width:180px; height:320px; overflow:visible; }
+    .stem-svg{
+  position:absolute;
+  left:50%;
+  top:200px; /* moved upward so it connects on mobile */
+  transform:translateX(-50%);
+  width:160px; /* slightly narrower for mobile alignment */
+  height:300px;
+  overflow:visible;
+}
 </style>
 </head>
 <body>
@@ -141,3 +149,4 @@
   </div>
 </body>
 </html>
+
